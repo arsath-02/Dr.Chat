@@ -227,13 +227,13 @@ export default function Chatbot() {
         </div>
 
         {/* Input Area */}
-        <div className="border-t dark:border-gray-700 bg-white dark:bg-gray-900 px-4 pb-4 pt-2">
+        <div className="border-t dark:border-gray-700 bg-white dark:bg-gray-900 px-4 pb-7 pt-2">
           <div className="max-w-3xl mx-auto">
             <div className="relative">
               <div className={`absolute left-8 transition-all duration-500 ease-bounce ${
                 isTyping || inputValue ? "-top-28" : "-top-14"
               }`}>
-                <div className="relative w-20 h-20">
+                <div className="relative w-20 h-20 ml-150">
                   <div className="absolute inset-0 scale-150 bg-gradient-radial from-yellow-200/50 to-transparent dark:from-yellow-900/30 rounded-full blur-xl"></div>
                   <div className="absolute inset-0 scale-125 bg-gradient-radial from-white to-transparent dark:from-white/10 rounded-full blur-md"></div>
                   <div className="relative w-20 h-20 bg-white dark:bg-gray-200 rounded-full shadow-lg flex items-center justify-center">
