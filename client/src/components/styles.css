@@ -1,0 +1,154 @@
+.dark {
+  color-scheme: dark;
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+/* Message animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message-enter {
+  animation: slideIn 0.3s ease-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+/* Input focus styles */
+.focus-ring {
+  outline: 2px solid rgba(59, 130, 246, 0.5); /* Equivalent to Tailwind's ring-blue-500 */
+}
+
+/* Message container styles */
+.message-container {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 100px; /* Space for fixed input */
+}
+
+/* Avatar styles */
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bot-avatar {
+  background-color: #bfdbfe;
+}
+
+.dark .bot-avatar {
+  background-color: #1e40af;
+}
+
+.user-avatar {
+  background-color: #e5e7eb;
+}
+
+.dark .user-avatar {
+  background-color: #374151;
+}
+
+/* Chat message bubble */
+.chat-bubble {
+  max-width: 36rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-message {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.bot-message {
+  background-color: white;
+}
+
+.dark .bot-message {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+/* Chat actions */
+.chat-actions {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #6b7280;
+}
+
+.chat-actions button {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.chat-actions button:hover {
+  color: #374151;
+}
+
+/* Input field */
+.chat-input {
+  width: 100%;
+  padding: 1rem;
+  padding-right: 3rem;
+  border-radius: 0.75rem;
+  border: 1px solid #d1d5db;
+  background-color: white;
+  color: black;
+}
+
+.dark .chat-input {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  color: #e5e7eb;
+}
+
+/* Fixed input bar */
+.fixed-input-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-top: 1px solid #d1d5db;
+  padding: 1rem;
+}
+
+.dark .fixed-input-bar {
+  background-color: #111827;
+  border-top: 1px solid #374151;
+}

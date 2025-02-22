@@ -1,0 +1,5 @@
+langchain
+httpx
+deep_translator
+dotenv
+groq
