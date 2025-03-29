@@ -22,7 +22,7 @@ This project is an AI-powered **Medical Chatbot** that can interact with users, 
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/arsath-02/Dr.Chat.git
-cd =Dr.Chat
+cd Dr.Chat
 ```
 
 ### 2️⃣ Install Dependencies
