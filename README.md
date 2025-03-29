@@ -21,8 +21,8 @@ This project is an AI-powered **Medical Chatbot** that can interact with users, 
 ## 🏗 Setup & Installation
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/medical-chatbot.git
-cd medical-chatbot
+git clone https://github.com/arsath-02/Dr.Chat.git
+cd =Dr.Chat
 ```
 
 ### 2️⃣ Install Dependencies
@@ -55,8 +55,8 @@ npm run dev
 
 ## 📬 Contact
 For any queries or collaboration, feel free to reach out:
-📧 Email: your-email@example.com
-🔗 LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
+📧 Email: arsathh02@example.com
+🔗 LinkedIn: [Your Profile](https://linkedin.com/in/arsath02)
 
 ---
 🌟 **Star this repository** if you find it useful!
